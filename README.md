@@ -36,7 +36,6 @@
 ## Workflow 🖨️
 Workflow video:
 
-https://user-images.githubusercontent.com/57009391/134011208-7beeea21-82c7-4272-8ac4-013e79ff8d4b.mp4
 
 <a id="keybinds"></a>
 ## Keybinds ✍️
