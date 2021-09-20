@@ -90,7 +90,7 @@ Make sure you have em all.
 
 <a id="trouble"></a>
 ## Troubleshooting 🔫
--idk what to write here ¯\_(ツ)_/¯
+-idk what to write here `¯\_(ツ)_/¯`
 
 
 <h1 align="center">🌟 Good Luck! 🌟</h1>
