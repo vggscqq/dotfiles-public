@@ -65,6 +65,7 @@ Note: `Toggling` means to enable if inactive or to disable if active.
 
 Note: `Win` refers to the `Super` key.
 
+<a id="deps"></a>
 ## Dependencies 📊
 Make sure you have em all.
 
