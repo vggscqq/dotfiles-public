@@ -37,11 +37,7 @@ My wayland setup
 <a id="workflow"></a>
 
 ## Workflow 🖨️
-Workflow GIF:
-
-<p align="center">
-  <img src="/preview/workflow.webm">
-</p>
+Workflow video:
 
 https://github.com/vggscqq/dotfiles-public/raw/main/preview/workflow.mp4
 
