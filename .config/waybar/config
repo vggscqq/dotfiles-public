@@ -1,0 +1,77 @@
+ 
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar at the bottom of your screen
+    "height": 24, // Waybar height
+
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "battery", "tray"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "urgent": "",
+            "default": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+    	"format": "{:%H:%M %d.%m.%Y}",
+        "format-alt": "{:%H:%M %d.%m.%Y}"
+    },
+    "cpu": {
+        "format": "{usage}% "
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "battery": {
+        "bat": "BAT1",
+        "states": {
+            "good": 95,
+            "warning": 40,
+            "critical": 25
+        },
+        "format": "{capacity}% {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/network": {
+        "format": "{}",
+        "max-length": 40,
+        "interval": 5, // Remove this if your script is endless and write in loop
+        "exec": "$HOME/.config/waybar/network.sh 2> /dev/null"
+    },
+    "custom/media": {
+        "format": "🎧 {}",
+        "max-length": 40,
+        "interval": 5, // Remove this if your script is endless and write in loop
+        "exec": "$HOME/.config/waybar/media.sh 2> /dev/null"
+    }
+}

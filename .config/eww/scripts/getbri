@@ -1,0 +1,2 @@
+#!/bin/bash
+brightnessctl -m | awk -F"," '{print($4)}' | cut -d% -f 1
