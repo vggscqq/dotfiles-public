@@ -37,6 +37,10 @@
 Workflow video:
 
 
+https://user-images.githubusercontent.com/57009391/134012867-d8d77282-c9f9-47ef-9e67-b66c9c2eefa9.mp4
+
+
+
 <a id="keybinds"></a>
 ## Keybinds ✍️
 
