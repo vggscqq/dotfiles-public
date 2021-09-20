@@ -1,2 +1,109 @@
 # dotfiles-public
 My wayland setup
+
+<img src='/screenshots/yeeyee.jpg'>
+
+<h1 align="center">🚀✨ ! ✨🚀</h1>
+
+
+## Table of Contents
+
+- [About ⁉️](#about)
+- [Gallery 📷](#gal)
+- [Workflow 🖨️](#workflow)
+- [Keybinds ✍️](#keybinds)
+- [Installation 🤵‍](#inst)
+  - [Arch Install 🌇](#arch)
+  - [Other Install 🚂](#other)
+- [Dependencies 📊](#deps)
+- [Troubleshooting 🔫](#trouble)
+
+<a id="about"></a>
+
+## Starring:
+
+- **Note:** This repository might be out of date, due to my laziness
+- **wayfire**
+- **eww** 
+- **fish shell**🤢
+- **alacritty**
+- **wofi**
+- **mako**
+- *Insert more stuff here*
+
+
+Hello! Thank you for dropping by! 👋
+
+These are my xmonad configurations, and they go brr! 🚀 (Let's stop that there).
+
+If you're here, I suppose you want to be cloning this configuration, for which look at the Installation Section below. 👇 
+
+Even if you're not, just look through the gallery 📷:
+
+
+
+<a id="gal"></a>
+<img src='/screenshots/sidebar.png'>
+<img src='/screenshots/firefox.png'>
+<img src='/screenshots/center.png'>
+
+<a id="workflow"></a>
+
+## Workflow 🖨️
+Workflow GIF:
+
+<p align="center">
+  <img src="https://github.com/vggscqq/preview/blob/main/workflow.gif">
+</p>
+
+
+<a id="keybinds"></a>
+## Keybinds ✍️
+
+- **Note:** better check out wayfire.ini
+
+|        Keybind         |                 Function                 |
+| ---------------------- | ---------------------------------------- |
+| `Win + Enter`          | Launch terminal (alacritty)              |
+| `Win + Q`              | Close window                             |
+| `Win + D`              | Open wofi menu                           |
+| `Win + S`              | Open/close sidebar                       |
+| `Win + right-drag`     | Change window size                       |
+| `Win + left-drag`      | Change window position                   |
+| `Win + 1..9`           | Switch through workspaces                |
+| `Win + T`              | Make a floating window tiled             |
+| `Alt + S`              | Place `sudo` in terminal                 |
+
+Note: `Toggling` means to enable if inactive or to disable if active.
+
+Note: `Win` refers to the `Super` key.
+
+## Dependencies 📊
+Make sure you have em all.
+
+-    wayfire
+-    wf-shell (For wallpapers)
+-    waybar (will changed to eww bar)
+-    eww
+-    wofi
+-    brightnessctl. [Link](https://github.com/Hummer12007/brightnessctl)
+-    An OpenWeatherMap Account, (view eww/scripts/getweather script for more info)
+-    NetworkManager
+-    alacritty
+-    jq: Command line json parser (Needed for widgets)
+-    mako
+-    swaylock-effects
+-    swayidle
+-    pipewire and pipewire-pulse
+-    fish shell
+-    grim
+-    slurp
+-    wl-clipboard
+-    **fonts:**
+  -    SF-mono
+  -    otf-font-awesome
+-    *Might need to be updated, so please tell me*
+<a id="trouble"></a>
+## Troubleshooting 🔫
+   
+<h1 align="center">🌟 Good Luck! 🌟</h1>
