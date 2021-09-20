@@ -42,8 +42,7 @@ Workflow GIF:
 <p align="center">
   <img src="/preview/workflow.webm">
 </p>
-https://github.com/vggscqq/dotfiles-public/blob/main/preview/workflow.mp4
-
+https://github.com/vggscqq/dotfiles-public/raw/main/preview/workflow.mp4
 <a id="keybinds"></a>
 ## Keybinds ✍️
 
