@@ -1,9 +1,6 @@
 # dotfiles-public
-My wayland setup
 
-<img src='/screenshots/yeeyee.jpg'>
-
-<h1 align="center">🚀✨ ! ✨🚀</h1>
+<h1 align="center">🚀✨ such wayland yay ✨🚀</h1>
 
 
 ## Table of Contents
