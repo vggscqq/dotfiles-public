@@ -12,9 +12,6 @@ My wayland setup
 - [Gallery 📷](#gal)
 - [Workflow 🖨️](#workflow)
 - [Keybinds ✍️](#keybinds)
-- [Installation 🤵‍](#inst)
-  - [Arch Install 🌇](#arch)
-  - [Other Install 🚂](#other)
 - [Dependencies 📊](#deps)
 - [Troubleshooting 🔫](#trouble)
 
@@ -30,16 +27,6 @@ My wayland setup
 - **wofi**
 - **mako**
 - *Insert more stuff here*
-
-
-Hello! Thank you for dropping by! 👋
-
-These are my xmonad configurations, and they go brr! 🚀 (Let's stop that there).
-
-If you're here, I suppose you want to be cloning this configuration, for which look at the Installation Section below. 👇 
-
-Even if you're not, just look through the gallery 📷:
-
 
 
 <a id="gal"></a>
@@ -99,11 +86,13 @@ Make sure you have em all.
 -    grim
 -    slurp
 -    wl-clipboard
--    **fonts:**
-  -    SF-mono
-  -    otf-font-awesome
+-    font: SF-mono
+-    font: otf-font-awesome
 -    *Might need to be updated, so please tell me*
+
 <a id="trouble"></a>
 ## Troubleshooting 🔫
-   
+-idk what to write here ¯\_(ツ)_/¯
+
+
 <h1 align="center">🌟 Good Luck! 🌟</h1>
