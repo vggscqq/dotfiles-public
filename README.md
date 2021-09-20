@@ -40,7 +40,7 @@ My wayland setup
 Workflow GIF:
 
 <p align="center">
-  <img src="/preview/workflow.mp4">
+  <img src="/preview/workflow.webm">
 </p>
 
 
