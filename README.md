@@ -90,7 +90,7 @@ Make sure you have em all.
 
 <a id="trouble"></a>
 ## Troubleshooting 🔫
--idk what to write here `¯\_(ツ)_/¯`
+- idk what to write here `¯\_(ツ)_/¯`
 
 Special thanks to [Axarva](https://github.com/Axarva) for eww sidebar config 😊
 <h1 align="center">🌟 Good Luck! 🌟</h1>
