@@ -21,8 +21,8 @@ My wayland setup
 
 - **Note:** This repository might be out of date, due to my laziness
 - **wayfire**
-- **eww** 
-- **fish shell**🤢
+- **eww**
+- **fish shell**
 - **alacritty**
 - **wofi**
 - **mako**
