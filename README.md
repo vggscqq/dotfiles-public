@@ -30,9 +30,9 @@ My wayland setup
 
 
 <a id="gal"></a>
-<img src='/screenshots/sidebar.png'>
-<img src='/screenshots/firefox.png'>
-<img src='/screenshots/center.png'>
+## Gallery
+<img src='/previews/sidebar.png'>
+<img src='/previews/grid.png'>
 
 <a id="workflow"></a>
 
