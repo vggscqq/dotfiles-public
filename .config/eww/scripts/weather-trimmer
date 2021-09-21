@@ -2,8 +2,8 @@
 weather=$(cat /tmp/xmonad/weather/weather-stat)
 weather_count=$(cat /tmp/xmonad/weather/weather-stat | wc -c)
 
-if [ "$weather_count" -lt 9999 ]; then
+if [ "$weather_count" -lt 16 ]; then
 	echo $weather;
 else 
-	echo $(cat /tmp/xmonad/weather/weather-stat | cut -c1-6)...
+	echo $(cat /tmp/xmonad/weather/weather-stat | cut -c1-16)...
 fi
