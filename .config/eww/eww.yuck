@@ -55,11 +55,11 @@
       (box :orientation "v" :space-evenly "false" 
         ; (button :class "search-side" :onclick "~/bin/launcher.sh" "  Search...")
         (box :orientation "h" :halign "center" :class "sysbtn" :space-evenly "true" 
-          (button :class "shutdown-side" :onclick "~/.config/eww/scripts/shutdown.sh" "")
-           (button :class "reboot-side" :onclick "~/.config/eww/scripts/reboot.sh" "")
-          (button :class "lock-side" :onclick "~/.config/eww/scripts/lockscreen.sh" "")
-          (button :class "suspend-side" :onclick "~/.config/eww/scripts/suspend.sh" "")
-          (button :class "logout-side" :onclick "~/.config/eww/scripts/logout.sh" ""))))
+          (button :class "shutdown-side" :onclick "systemctl shutdown" "")
+           (button :class "reboot-side" :onclick "systemctl reboot" "")
+          (button :class "lock-side" :onclick "swaylock &" "")
+          (button :class "suspend-side" :onclick "systemctl suspend" "")
+          (button :class "logout-side" :onclick "pkill wayfire" ""))))
     (defwidget calendar_full [] 
         (box :orientation "v" :halign "center" :space-evenly "false" 
            (box :class "calendar_title" "     ${day}, ${number_day} ${month_full} ${year_full}")
@@ -162,7 +162,7 @@
     (defpoll year_full :interval "15h"  "date \"+%Y\"")
 
     ;; Weather vars
-    (defpoll weather-check :interval "20m" "~/.config/eww/scripts/getweather")
+    ; (defpoll weather-check :interval "20m" "~/.config/eww/scripts/getweather")
     (defpoll weather-icon :interval "20m"  "cat /tmp/xmonad/weather/weather-icon")
     (defpoll temperature :interval "20m"  "cat /tmp/xmonad/weather/weather-degree")
     (defpoll weather-hex :interval "20m"  "cat /tmp/xmonad/weather/weather-hex")

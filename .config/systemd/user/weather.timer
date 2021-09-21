@@ -1,0 +1,9 @@
+[Unit]
+Description=Update weather.service
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=20min
+
+[Install]
+WantedBy=timers.target

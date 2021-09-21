@@ -1,0 +1,9 @@
+[Unit]
+Description=Openweather api fetcher
+
+[Service]
+ExecStart=/home/vgscq/.config/eww/scripts/getweather
+Type=oneshot
+
+[Install]
+WantedBy=default.target
